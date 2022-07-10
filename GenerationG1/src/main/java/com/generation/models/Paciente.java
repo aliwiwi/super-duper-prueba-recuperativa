@@ -67,12 +67,4 @@ public class Paciente {
     public void setFecha_nacimiento(Date fecha_nacimiento) {
         this.fecha_nacimiento = fecha_nacimiento;
     }
-
-    public List<CitaMedica> getListaCitasMedicas() {
-        return listaCitasMedicas;
-    }
-
-    public void setListaCitasMedicas(List<CitaMedica> listaCitasMedicas) {
-        this.listaCitasMedicas = listaCitasMedicas;}
-    }
-
+}
